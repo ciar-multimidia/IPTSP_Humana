@@ -1,10 +1,10 @@
-/*BOX SIZING FIX*/
+ /*BOX SIZING FIX*/
 html {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,*:before,*:after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 @font-face {
@@ -125,7 +125,7 @@ left: 0;
 }
 
 #governo p {
-margin-top: 10px;	
+margin-top: 10px;   
 }
 
 
@@ -182,7 +182,7 @@ letter-spacing: 0.1rem;
 .iniciar a {
 background-color: #fff;
 display: inline-block;
-color: #490061;
+color: #002d45;
 font-weight: 500;
 padding: 20px;
 text-transform: uppercase;
@@ -258,11 +258,11 @@ position: relative;
 }
 
 .areaconteudo article{
-width: 700px;	
+width: 700px;   
 }
 
 .areaconteudo img {
-position: left;	
+position: left; 
 }
 
 .areaconteudo h1, .areaconteudo h2 {
@@ -273,21 +273,21 @@ padding-top: 40px;
 
 .areaconteudo h1 {
 font-size: 30px;  
-color: #4e1f5c;
+color: #00507a;
 }
 
 .areaconteudo h2{
 font-size: 25px;
 font-weight: 500;
 padding-top: 30px;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .areaconteudo h3 {
 font-size: 20px;
 font-weight: 500;
 padding-top: 30px;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .areaconteudo p {
@@ -302,7 +302,11 @@ font-weight: 300;
 font-size: 17px;
 padding-bottom: 12px;
 line-height: 25px;
-    
+}
+
+.areaconteudo a {
+    text-decoration: none;
+    color: #4e1f5c;
 }
 
 blockquote {
@@ -424,7 +428,7 @@ max-height: 300px;
 table {
 border-collapse: collapse;
 width: 100%;
-margin: 40px 0;	
+margin: 40px 0; 
 color: #000;
 }
 
@@ -450,7 +454,7 @@ padding: 10px;
 }
 
 .ultimalinha td {
-border-bottom: 4px solid #4e1f5c;	
+border-bottom: 4px solid #4e1f5c;   
 }
 
 table caption {
@@ -459,7 +463,7 @@ text-align: left;
 letter-spacing: 0.5px;
 text-transform: uppercase;
 font-size: 14px;
-padding-bottom:	10px;
+padding-bottom: 10px;
 color: #212121;
 }
 
@@ -469,7 +473,7 @@ color: #212121;
 .pagina {
 display: block;
 width:  900px;
-border-bottom: 1px solid #bfbfbf;	
+border-bottom: 1px solid #bfbfbf;   
 margin: 0;
 margin-bottom: 50px;
 /*color: #c2c2c2;*/
@@ -484,7 +488,7 @@ text-align: right;
 
 /*footer do miolo*/
 .footermiolo {
-background-color: #4e1f5c;	
+background-color: #00324d;  
 padding-top: 25px;
 padding-bottom: 25px;
 font-family: Roboto-Regular;
@@ -532,6 +536,10 @@ display: block;
 padding-top: 30px;
 }
 
+footer .footerinicio a {
+    text-decoration: none;
+    color: #575757;
+}
 
 
  
@@ -540,7 +548,7 @@ padding-top: 30px;
 
 .entradasumario {
 margin-top: 70px;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .entradasumario h1 {
@@ -556,7 +564,7 @@ float: right;
 display: inline-block;
 margin-top: 50px;
 text-decoration: none;
-color: #4e1f5c;
+color: #00507a;
 }
 
 .entradasumario a:hover {
