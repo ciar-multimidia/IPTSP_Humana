@@ -646,17 +646,29 @@ font-size: 15px;
 
 .box {
 border: 1px solid #000; 
-width: 800px;
+width: 100%;
 padding: 30px;
 font-size: 16px;
 font-weight: 300;
 align-items: left;
-margin-bottom: 100px;
+margin-bottom: 0;
+}
+
+.box:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .isbn {
-margin-bottom: 60px;    
+    font-size: .9em;
 }
+
+.isbn .box {font-size: inherit; padding: 15px;}
+
+.isbn .box div:nth-of-type(1) { width: 50px; float: left;}
+.isbn .box div:nth-of-type(2) { width: calc(100% - 70px); float: right; text-align: left;}
+.isbn .box div p {margin-top: 0}
 
 .isbn h1{
 font-weight: normal;
@@ -668,8 +680,9 @@ padding-bottom: 10px;
 font-weight: 500;
 margin-top: 80px;
 text-decoration: none;
-font-size: 20px; 
-color: #4e1f5c;   
+font-size: inherit; 
+color: #002d45;   
+word-break: break-all;
 }
 
 .isbn a:hover {
