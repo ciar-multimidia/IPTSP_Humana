@@ -258,8 +258,7 @@ position: relative;
 }
 
 .areaconteudo article{
-width: 700px; 
-text-align: justify;  
+width: 700px;   
 }
 
 .areaconteudo img {
@@ -270,7 +269,6 @@ position: left;
 font-weight: 500;
 color: #000; 
 padding-top: 40px;   
-text-align: left;
 }
 
 .areaconteudo h1 {
@@ -290,13 +288,13 @@ font-size: 20px;
 font-weight: 500;
 padding-top: 30px;
 color: #00507a;
-text-align: left;
 }
 
 .areaconteudo p {
 font-weight: 300;
 line-height: 27px;
 font-size: 17px;
+text-align: left;
 }
 
 .areaconteudo li {
@@ -442,7 +440,7 @@ text-align: left;
 
 th {
 font-weight: normal;
-background-color: #00324d;
+background-color: #4e1f5c;
 padding: 10px;
 color: #fff;
 
@@ -497,7 +495,6 @@ font-family: Roboto-Regular;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 font-size: 18px;
-position: relative;
 }
 
 footer a {
@@ -512,17 +509,6 @@ padding-right: 40px;
 .direita {
 float: right;
 padding-left: 40px; 
-}
-
-.navegacao {
-    color: white;
-    position: absolute;
-    top: 50%; left: 50%;
-    display: inline-block;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
 }
 
 /*footer do inicio*/
@@ -644,50 +630,42 @@ padding-top: 20px;
 font-size: 15px;
 }
 
-.box {
-border: 1px solid #000; 
-width: 100%;
-padding: 30px;
-font-size: 16px;
+.isbn table {
+border: 1px solid #000;
+margin-bottom: 5px;
+}
+
+.isbn td {
+vertical-align: super;
+padding: 15px;
+}
+
+.isbn p {
 font-weight: 300;
-align-items: left;
-margin-bottom: 0;
-}
-
-.box:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.isbn {
-    font-size: .9em;
-}
-
-.isbn .box {font-size: inherit; padding: 15px;}
-
-.isbn .box div:nth-of-type(1) { width: 50px; float: left;}
-.isbn .box div:nth-of-type(2) { width: calc(100% - 70px); float: right; text-align: left;}
-.isbn .box div p {margin-top: 0}
-
-.isbn h1{
-font-weight: normal;
-font-size: 18px;
-padding-bottom: 10px;
+line-height: 1.4em;
 }
 
 .isbn a {
-font-weight: 500;
-margin-top: 80px;
-text-decoration: none;
-font-size: inherit; 
-color: #002d45;   
 word-break: break-all;
+color: #00507a;
 }
 
-.isbn a:hover {
-color: #000;
+.fichainiciar {
+    margin-top: 80px;
+    color: #00507a;
 }
+
+.fichainiciar a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fichainiciar a:hover {
+    color: #000;
+}
+
+
 
 
 
